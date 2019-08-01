@@ -1,0 +1,20 @@
+delay = 300
+provider = "local"
+data_directory = "./data"
+log_level = "debug"
+
+
+[unsplash]
+api_base_url = "https://api.unsplash.com"
+access_key = "your_access_key"
+# search | random
+mode = "search"
+# only required if mode is 'search'
+search_term = "nature"
+pagination = 10
+# raw | full | regular
+quality = "regular"
+
+[local]
+folder = "path/to/wallpaper/folder"
+recurse = true

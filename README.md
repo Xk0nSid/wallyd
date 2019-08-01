@@ -1,2 +1,4 @@
-# wallyd
-Wallpaper server written in python
+Wally
+=====
+
+A wallpaper daemon written in Python.
